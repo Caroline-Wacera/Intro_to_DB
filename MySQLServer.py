@@ -5,8 +5,8 @@ try:
     # Connect to MySQL server (update with your MySQL username and password)
     connection = mysql.connector.connect(
         host="localhost",
-        user="your_username",  # Replace with your MySQL username
-        password="your_password"  # Replace with your MySQL password
+        user="root",  # Replace with your MySQL username
+        password=""  # Replace with your MySQL password
     )
 
     if connection.is_connected():
